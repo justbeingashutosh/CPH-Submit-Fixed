@@ -1,0 +1,5 @@
+localhost:27121/getSubmit
+
+Codeforces submit page: codeforces.com/problemset/submit
+
+Setting the language using languageID: document.getElementsByName('programTypeId')[0].value = languageID

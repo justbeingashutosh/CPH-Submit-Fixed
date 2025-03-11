@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "CPH Submit Fixed",
+  "author": "vetruvian_",
+  "version": "1.0",
+  "description": "Fetches submission data from a local server and relays it to Codeforces pages.",
+  "permissions": [
+    "scripting",
+    "tabs",
+    "storage"
+  ],
+  "host_permissions": [
+    "http://localhost:27121/*",
+    "https://codeforces.com/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://codeforces.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_end"
+    }
+  ],
+  "icons":{
+    "48": "icon.png"
+  }
+}
