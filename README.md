@@ -1,7 +1,7 @@
-#CPH Submit Fixed
+# CPH Submit Fixed
 This is my first browser extension. A naively created form of the original CPH Submit that just might work for you.
 
-##Installation Guide
+## Installation Guide
 Please download the extension from here.
 Open the downloaded file with your browser.
 A prompt warning you of the extension may appear. This is because most browsers check whether the extension was downloaded from a web store to trust it.
