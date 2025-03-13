@@ -1,5 +1,5 @@
 # CPH Submit Fixed
-This is my first browser extension. A naively created form of the original [CPH Submit](https://github.com/agrawal-d/cph-submit) that just might work for you.
+This project was initiated due to the [issues](https://github.com/agrawal-d/cph-submit/issues) on chromium based browsers that I faced and many others did. This is my first browser extension. A naively created form of the original [CPH Submit](https://github.com/agrawal-d/cph-submit) that just might work for you.
 
 ## Installation Guide
 1. Please download the extension from here.
